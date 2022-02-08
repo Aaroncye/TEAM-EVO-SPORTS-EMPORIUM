@@ -62,6 +62,14 @@ body {
     left: 0;
 }
 
+
+/*resizing of the icon*/
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
 #navbar {
     display: flex;
     align-items: center;
