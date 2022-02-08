@@ -274,3 +274,12 @@ body {
     bottom: 20px;
     right: 10px;
 }
+
+
+/*3D MODEL*/
+
+model-viewer {
+    width: 1200px;
+    height: 1200px;
+    margin: 0 auto;
+}
