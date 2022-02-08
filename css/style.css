@@ -70,6 +70,9 @@ body {
     height: 150px;
 }
 
+
+/*for navigation on top*/
+
 #navbar {
     display: flex;
     align-items: center;
