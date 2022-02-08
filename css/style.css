@@ -118,7 +118,7 @@ body {
 #background {
     background-image: url('https://about.underarmour.com/sites/default/files/styles/1600x/public/2021-11/cq5dam-FW21_CURRY_CurryFlow9_3025684-405_WarpDynamic_ColorBkg-v_1.jpeg?itok=xeJ6o2K4');
     height: 100vh;
-    width: 100%;
+    width: auto;
     background-size: cover;
     background-position: top 25% right 1;
     padding: 0 80px;
@@ -140,7 +140,7 @@ body {
 #background button {
     background-image: url('/img/button.jpg');
     background-color: transparent;
-    color: #24fff0;
+    color: #ffffff;
     border: 0;
     padding: 14px 80px 14px 65px;
     background-repeat: no-repeat;
