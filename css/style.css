@@ -334,6 +334,7 @@ body {
 /*3D MODEL*/
 
 model-viewer {
+    --poster-color: transparent;
     width: 90%;
     height: 800px;
     margin: 0 auto;
@@ -341,7 +342,8 @@ model-viewer {
 
 #threed .pro {
     padding: 10px 12px;
-    border: 1px solid #cce7d0;
+    border: 1px solid #fcfcfc;
+    background-color: #cdd4f8;
     border-radius: 25px;
     cursor: pointer;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
@@ -361,7 +363,7 @@ model-viewer {
 
 #threed .pro .des span {
     color: #606063;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 #threed .pro .des h5 {
@@ -393,5 +395,5 @@ model-viewer {
     border: 1px solid #cce7d0;
     position: absolute;
     bottom: 20px;
-    right: 10px;
+    right: 15px;
 }
