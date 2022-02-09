@@ -129,7 +129,7 @@ body {
 /* Home Page - background image in home page*/
 
 #background {
-    background-image: url('https://about.underarmour.com/sites/default/files/styles/1600x/public/2021-11/cq5dam-FW21_CURRY_CurryFlow9_3025684-405_WarpDynamic_ColorBkg-v_1.jpeg?itok=xeJ6o2K4');
+    background-image: url('../img/curryflow91.jpeg');
     height: 100vh;
     width: auto;
     background-size: cover;
@@ -151,9 +151,9 @@ body {
 }
 
 #background button {
-    background-image: url('/img/button.jpg');
+    background-image: url('../img/button.jpg');
     background-color: transparent;
-    color: #ffffff;
+    color: #426361;
     border: 0;
     padding: 14px 80px 14px 65px;
     background-repeat: no-repeat;
