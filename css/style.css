@@ -30,8 +30,9 @@ h6 {
 
 p {
     font-size: 16px;
-    color: #a73397;
+    color: #da3ec5;
     margin: 15px 0 20px 0;
+    font-weight: 500;
 }
 
 .section-p1 {
@@ -51,6 +52,31 @@ button.normal {
     border-radius: 4px;
     cursor: pointer;
     border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+button.small {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px;
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+button.white {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1 px solid white;
     outline: none;
     transition: 0.2s;
 }
@@ -153,7 +179,7 @@ body {
 #background button {
     background-image: url('../img/button.jpg');
     background-color: transparent;
-    color: #426361;
+    color: #088178;
     border: 0;
     padding: 14px 80px 14px 65px;
     background-repeat: no-repeat;
@@ -327,6 +353,63 @@ body {
 
 #banner button:hover {
     background: #088178;
+    color: white;
+}
+
+#sm-banner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#sm-banner .banner-box {
+    background-image: url('../img/banner/stephcurry.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: 900px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#sm-banner .banner-box2 {
+    background-image: url('../img/banner/b10.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: 900px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#sm-banner h4 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#sm-banner h2 {
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#sm-banner span {
+    color: #00ffff;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 15px;
+}
+
+#sm-banner .banner-box:hover button {
+    background: #088178;
+    border: 1px #088178;
     color: white;
 }
 
