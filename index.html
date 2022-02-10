@@ -23,10 +23,17 @@
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="favourites.html"><i class="fas fa-heart"></i></a></li>
-                <li><a href="cart.html"><i class="fas fa-shopping-basket"></i></a></li>
-                <li><a href="account.html"><i class="fas fa-user-circle"></i></a></li>
+                <li id="lg-icons"><a href="favourites.html"><i class="fas fa-heart"></i></a></li>
+                <li id="lg-icons"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <li id="lg-icons"><a href="account.html"><i class="fas fa-user-circle"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
             </ul>
+        </div>
+        <div id="mobile">
+            <a href="favourites.html"><i class="fas fa-heart"></i></a>
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <a href="account.html"><i class="fas fa-user-circle"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
         </div>
     </section>
 
@@ -351,6 +358,27 @@
         </div>
     </section>
 
+    <section id="threed">
+        <div class="pro">
+            <!--- 3d model api --->
+            <model-viewer id="reveal" loading="eager" camera-controls auto-rotate src="../air_force1/scene.gltf"></model-viewer>
+            <!--id="reveal" loading="eager" camera-controls auto-rotate poster="../../assets/poster-shishkebab.png" src="../../shared-assets/models/shishkebab.glb" alt="A 3D model of a shishkebab">-->
+            <div class="des">
+                <span>Nike</span>
+                <h5>Air Force 1 </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>SG$229</h4>
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart threedcart"></i></a>
+        </div>
+    </section>
+
     <section id="sm-banner" class="section-p1">
         <div class="banner-box">
             <h4>Change the game</h4>
@@ -389,31 +417,61 @@
         </div>
     </section>
 
-    <section id="threed">
-        <div class="pro">
-            <!--- 3d model api --->
-            <model-viewer id="reveal" loading="eager" camera-controls auto-rotate src="../air_force1/scene.gltf"></model-viewer>
-            <!--id="reveal" loading="eager" camera-controls auto-rotate poster="../../assets/poster-shishkebab.png" src="../../shared-assets/models/shishkebab.glb" alt="A 3D model of a shishkebab">-->
-            <div class="des">
-                <span>Nike</span>
-                <h5>Air Force 1 </h5>
-                <div class="star">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
+    <footer id="footer" class="section-p1">
+        <div class="col">
+            <img src="./img/logo.jpg" alt="" class="logo">
+            <h4>Contact</h4>
+            <p> <strong>Address:</strong> 562 Wellington Road, Street 30, San Francisco</p>
+            <p> <strong>Phone:</strong> +01 2222 365/(+91) 01 2345 6789</p>
+            <p> <strong>Hours:</strong> 10:00 - 18:00, Monday - Friday</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <a><i class="fab fa-facebook"></i></a>
+                    <a><i class="fab fa-twitter"></i></a>
+                    <a><i class="fab fa-instagram"></i></a>
+                    <a><i class="fab fa-pinterest"></i></a>
+                    <a><i class="fab fa-youtube"></i></a>
                 </div>
-                <h4>SG$229</h4>
             </div>
-            <a href="#"><i class="fal fa-shopping-cart threedcart"></i></a>
         </div>
-    </section>
 
-    <footer></footer>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policiy</a>
+            <a href="#">Terms & Condition</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>Form App Store or Google Play</p>
+            <div class="row">
+                <img src="./img/pay/app.jpg" alt="">
+                <img src="./img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="./img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>© 2022 Sports Emporium, Inc. All Rights Reserved</p>
+        </div>
+    </footer>
 
 
-    <script src="script.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
