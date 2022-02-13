@@ -663,7 +663,47 @@ footer .copyright {
 }
 
 
-/*Shope Page*/
+/*Shop Page*/
+
+#page-header {
+    background-image: url('../img/banner/b1.jpg');
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#page-header h2 {
+    color: white;
+}
+
+#page-header p {
+    color: white;
+}
+
+#pagination {
+    text-align: center;
+}
+
+
+/*create the page icons look*/
+
+#pagination a {
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+}
+
+#pagination a i {
+    font-size: 16px;
+    font-weight: 600;
+}
 
 
 /*Single Product*/
