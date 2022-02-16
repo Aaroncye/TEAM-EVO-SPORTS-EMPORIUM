@@ -40,3 +40,5 @@ SmallImg[3].onclick = function() {
 SmallImg[4].onclick = function() {
     MainImg.src = SmallImg[4].src;
 }
+
+// Account Page
