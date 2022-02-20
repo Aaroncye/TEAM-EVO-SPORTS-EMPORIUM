@@ -30,12 +30,15 @@
                 .container,
                 .form__input,
                 .form__button {
-                    font: 500 1rem 'Quicksand';
-                    sans serif;
+                    font: 500 1rem 'Quicksand', sans-serif;
                 }
                 
                 .form__Title .form>*:first-child {
                     margin-top: 0;
+                }
+                
+                .form>*:first-child {
+                    margin-bottom: 0;
                 }
                 
                 .form__message {

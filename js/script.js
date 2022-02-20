@@ -42,15 +42,3 @@ SmallImg[4].onclick = function() {
 }
 
 // Account Page
-
-
-
-//Index Page - to redirect pages for men, women, kids
-var mencat = document.getElementById("menCatergory");
-var womencat = document.getElementById("womenCatergory");
-var kidscat = document.getElementById("kidsCatergory");
-
-//on click of button men's redirect to man page
-mencat.onclick = function() {
-    location.href = "https://aaroncye.github.io/TEAM-EVO-SPORTS-EMPORIUM/men.html";
-}
