@@ -20,25 +20,24 @@ if (close) {
     })
 }
 
-// FOR SPRODUCT.HTML - To allow the different images to be viewed.
-var MainImg = document.getElementById("MainImg");
-var SmallImg = document.getElementsByClassName("small-img");
 
-//click on first image, the main image changes to that
-SmallImg[0].onclick = function() {
-    MainImg.src = SmallImg[0].src;
-}
-SmallImg[1].onclick = function() {
-    MainImg.src = SmallImg[1].src;
-}
-SmallImg[2].onclick = function() {
-    MainImg.src = SmallImg[2].src;
-}
-SmallImg[3].onclick = function() {
-    MainImg.src = SmallImg[3].src;
-}
-SmallImg[4].onclick = function() {
-    MainImg.src = SmallImg[4].src;
-}
 
 // Account Page
+document.addEventListener("DOMContentLoaded", () => {
+    const loginForm = document.querySelector("#login");
+    const createAccountForm = document.querySelector("#createAccount");
+
+    //when create account is click, login form will be hidden and create account form will be shown
+    document.querySelector("#linkCreateAccount").addEventListener("click", e => {
+        e.preventDefault(); // prevent default behaviour 
+        loginForm.classList.add("form--hidden");
+        createAccountForm.classList.remove("form--hidden");
+    });
+    //when link login is click, login form will be shown and create account form will be hidden
+
+    document.querySelector("#linklogin").addEventListener("click", e => {
+        e.preventDefault(); // prevent default behaviour
+        loginForm.classList.remove("form--hidden");
+        createAccountForm.classList.add("form--hidden");
+    });
+});
