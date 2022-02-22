@@ -1,11 +1,11 @@
 # TEAM-EVO-SPORTS-EMPORIUM-
 Sports Emporium - Platform for sport lovers
 
-A website that is dedicated to serving our sports lovers. This project aims to encourage sports enthusiasts to stay active and fashionable.
+A website that is dedicated to serving consumer demands. This project aims to encourage sports enthusiasts to stay active and fashionable.
 
 
 ## Design Process
-The design process starts with Brainstorming for ideas, researching and Implementing to see if it works, Test and seeing what doesn't work and Improvement.
+The design process starts with brainstorming for ideas, researching and implementing to see if it works, Testing and seeing what doesn't work and Improve from then on.
 
 * **Sports Emporium Customers**
     * Our customers can select from a variety of sneakers & clothing to purchase for their sports needs.
