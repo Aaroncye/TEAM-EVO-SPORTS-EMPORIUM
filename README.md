@@ -152,7 +152,7 @@ API ( to be updated ).
 ### Content ###
 - [Novelship](https://novelship.com/) → Data for the Shoes.
 - [JDsports](https://www.jdsports.com.sg/) → Data for the clothes for men, women, kids category.
-
+- [Sketchfab](https://sketchfab.com/3d-models/air-force-0674d059edcd45f49e6f2d12528a3143#download) → Model for the 3d model viewer.
 ### Media ###
 **Images**
 * [Google Search Engine](https://www.google.com)
@@ -167,6 +167,6 @@ API ( to be updated ).
 1. [JDsports](https://www.jdsports.com.sg/) → Data for the clothes for men, women, kids category.
 1. [W3School](https://www.w3schools.com/) → Helped us with commands that we had trouble with and also taught us many ways to create interesting HTML, CSS & JavaScript content.
 1. [RestDB](https://restdb.io/) → Made use of RestDB to store data.
-1. [LottieFiles](https://lottiefiles.com/) → Used for loading icons.
-1. [Shopping Bag](https://fontawesome.com/v5/search?q=shopping)
-1. [Account Icon](https://fontawesome.com/v5/icons/user-circle?s=solid)
+1. [LottieFiles](https://lottiefiles.com/) → Used for loading.
+1. [Shopping Bag](https://fontawesome.com/v5/search?q=shopping) → Used for icons on navigation bar.
+1. [Account Icon](https://fontawesome.com/v5/icons/user-circle?s=solid) → Used for icons on navigation bar.
