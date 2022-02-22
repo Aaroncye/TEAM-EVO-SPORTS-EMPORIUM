@@ -55,17 +55,22 @@ These are the current features and pages of our website as well as the additiona
 <hr>
 
 * **Account**:
-    * User greeting message **(Hi, Name)**
-    * View Account Balance
-        * Add Account Balance
-    * Game Coupons
-    * Daily Rewards
-    * Dashboard of Account Spendings/Winnings
-    * Account Settings
-        * Change Account Password
-        * Add Account Balance
-        * View Account Purchase History
-    * Logout button  
+    * Login Page
+    * Create Account Page
+<hr>
+
+* **Contact**:
+    * Get In Touch details 
+        * Main Outlet location
+        * Email
+        * Phone Number
+        * Working Hours
+        * google map location
+    * Team Contact Details
+        * Phone Number
+        * Email
+    * Contact / Feedback Form
+
 
 Feature 1 - allows users X to achieve Y, by having them fill out Z
 ...
