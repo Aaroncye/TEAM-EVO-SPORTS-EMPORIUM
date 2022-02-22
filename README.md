@@ -16,7 +16,7 @@ The design process starts with Brainstorming for ideas, researching and Implemen
     * They can also be able to look up the retail prices of shoes, clothes, and socks.
 
 Adobe XD wireframe[click here](https://xd.adobe.com/view/cac83ef6-7b4e-43b4-a6e5-8e258db2734f-9f9b/?fullscreen).<br/>
-Pitch Video [click here]().<br/>
+Pitch Video [click here](https://youtu.be/jnpPC5BdZzU).<br/>
 Pitch Deck [click here](https://docs.google.com/presentation/d/1ZO1mDqd23FcLDB9hHOmnX01DwZptXoc5ryQnSmGFK6o/edit?usp=sharing).<br/>
 Github Page [click here](https://aaroncye.github.io/TEAM-EVO-SPORTS-EMPORIUM/).
 
@@ -27,7 +27,7 @@ These are the current features and pages of our website as well as the additiona
     * Navigation bar with Logo, Shopping Bag Icon & Account Icon
     * Login & Create Account 
     * Footer with Copyright & Acknowledgement
-    * Lottie Loading Animations
+    * Lottie Animations
     * 3D Model Viewer
 <hr>
 
@@ -39,11 +39,33 @@ These are the current features and pages of our website as well as the additiona
 * **Shop**:
     * Banners for Men, Women, Kids **(Clickable)**
     * Products **(Clickable)**
-    * Newsletter Sign Up
+    * Newsletter Sign Up    
 <hr>
+
 * **Product**:
     * Product Card Info
-        * Brand, Name, Cost, Release Date, Category, Size, Quantity, Add to Bag.
+        * Brand, Name, Cost, Size selector, Quantity selector, Add to Cart.
+<hr>
+
+* **ShoppingBag**:
+    * Shopping Bag Table 
+    * Total Item Cost 
+    * Apply Coupons
+    * checked out alert
+<hr>
+
+* **Account**:
+    * User greeting message **(Hi, Name)**
+    * View Account Balance
+        * Add Account Balance
+    * Game Coupons
+    * Daily Rewards
+    * Dashboard of Account Spendings/Winnings
+    * Account Settings
+        * Change Account Password
+        * Add Account Balance
+        * View Account Purchase History
+    * Logout button  
 
 Feature 1 - allows users X to achieve Y, by having them fill out Z
 ...
