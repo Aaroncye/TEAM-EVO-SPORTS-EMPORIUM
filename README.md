@@ -9,7 +9,6 @@ The design process starts with Brainstorming for ideas, researching and Implemen
 
 * **Sports Emporium Customers**
     * Our customers can select from a variety of sneakers & clothing to purchase them.
-    * Customers can check out the blog their daily game coupons. With these game coupons, they will be able to play the games like Spin N Win or Coin Flip to stand a chance to earn more money to their account.
 
 * **Sports Enthusiasts**
     * Sports Enthusiasts can search up and stay updated with what is available in the market through the blog page.
