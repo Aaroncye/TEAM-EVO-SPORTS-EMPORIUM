@@ -15,7 +15,7 @@ The design process starts with Brainstorming for ideas, researching and Implemen
     * Sports Enthusiasts can search up and stay updated with what is available in the market through the blog page.
     * They can also be able to look up the retail prices of shoes, clothes, and socks.
 
-Adobe XD wireframe[click here](https://xd.adobe.com/view/cac83ef6-7b4e-43b4-a6e5-8e258db2734f-9f9b/?fullscreen).<br/>
+Adobe XD Wireframe [click here](https://xd.adobe.com/view/cac83ef6-7b4e-43b4-a6e5-8e258db2734f-9f9b/?fullscreen).<br/>
 Pitch Video [click here](https://youtu.be/jnpPC5BdZzU).<br/>
 Pitch Deck [click here](https://docs.google.com/presentation/d/1ZO1mDqd23FcLDB9hHOmnX01DwZptXoc5ryQnSmGFK6o/edit?usp=sharing).<br/>
 Github Page [click here](https://aaroncye.github.io/TEAM-EVO-SPORTS-EMPORIUM/).
@@ -40,6 +40,19 @@ These are the current features and pages of our website as well as the additiona
     * Banners for Men, Women, Kids **(Clickable)**
     * Products **(Clickable)**
     * Newsletter Sign Up    
+<hr>
+
+* **About**:
+    * Images and details of Sports Emporium Team
+    * Moving text for the position **(Clickable)**
+    * lottie animation            
+    * Newsletter Sign Up    
+<hr>
+
+* **Blog**:
+    * Sharing About Products
+    * Continue Reading **(Clickable)**
+    * Newsletter Sign Up 
 <hr>
 
 * **Product**:
@@ -70,42 +83,89 @@ These are the current features and pages of our website as well as the additiona
         * Phone Number
         * Email
     * Contact / Feedback Form
+<hr>
 
+### Features Left to Implement ###
+* **ShoppingBag**:
+    * Shopping Bag (Auto-Update)
+        * Delete feature
+    * Total Item Cost **(Only displayed if there's item in bag)**
+    * Shipping Form **(Only displayed if there's item in bag)**
 
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+**Account**:
+    * User greeting message **(Hi, Name)**
+    * View Account Balance
+        * Add Account Balance
+    * Daily Rewards
+    * Dashboard of Account Spendings
+    * Account Settings
+        * Change Password
+        * Purchasing Using Sports Emporium Wallet
+        * View  Purchase History
+    * Logout button    
 
-Features Left to Implement
-Another feature idea
+* **Games**:
+    * Shooting basketball
+
 
 ## Technologies Used
 HTML will be the base of our website. While CSS & Jquery will be used for raw design of the web site.Restdb will be deployed as a database storage for our website, to get feedbacks and storing of information. Lottie used for our startup page animation.
 API ( to be updated ).
 
--JQuery
-  - The project uses JQuery to simplify DOM manipulation.
-  
-## Testing
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+### Tools ###
+* [Visual Studio Code](https://code.visualstudio.com/) → Integrated Development Environment (IDE) used.
+* [Adobe XD](https://www.adobe.com/sea/products/xd.html) → To make the wireframes of the website. (Desktop & Mobile).
+* [Adobe Photoshop](https://www.adobe.com/sea/products/photoshopfamily.html) → To create and edit placeholder images & icons.
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+### Languages ###
+* [Hypertext Markup Language (HTML)](https://html.spec.whatwg.org/) → To create the content of the website.
+* [Cascading Style Sheets (CSS)](https://www.w3.org/Style/CSS/Overview.en.html) → To style the content of the website.
+* [JavaScript](https://www.javascript.com/) → To make the webpage much more interactive.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+## Testing ##
+### Browsers Tested ###
+* [Brave](https://brave.com/)
+* [Google Chrome](https://www.google.com/intl/en_sg/chrome/)
+* [Microsoft Edge](https://www.microsoft.com/en-us/edge?form=MY01BV&OCID=MY01BV)
+### Mobile Devices Tested ###
+* **iPhone SE**
+* **Motorola Moto G4**
+* **Samsung Galaxy S8+**
+* **Samsung Galaxy S20 Ultra**
+* **Google Pixel 5**
+* **Google Pixel 2 XL**
+* **iPhone XR, iPhone 12 Pro**
+* **iPad Air**
+* **iPad Mini**
+* **Surface Duo**
+* **Surface Pro 7**
+* **Samsung Galaxy A51/71**
+* **Nest Hub Max**
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+### Validators ###
+* [HTML Validator](https://validator.w3.org/)
+* [CSS Validator](https://jigsaw.w3.org/css-validator/)
+* [JS & JQuery Validator](https://jshint.com/)
 
-## Credits
-**Content**
-The text for section Y was copied from the Wikipedia article Z
+## Credits ##
+### Content ###
+- [Novelship](https://novelship.com/) → Data for the Shoes.
+- [JDsports](https://www.jdsports.com.sg/) → Data for the clothes for men, women, kids category.
 
-**Media**
-The photos used in this site were obtained from ...
+### Media ###
+**Images**
+* [Google Search Engine](https://www.google.com)
 
-**Acknowledgements**
-I received inspiration for this project from X
+**Icons**
+* [Shopping Bag](https://fontawesome.com/v5/search?q=shopping)
+* [Account Icon](https://fontawesome.com/v5/icons/user-circle?s=solid)
+* [Lottie Animations](https://lottiefiles.com/)
+
+### Acknowledgements ###
+1. [Novelship](https://novelship.com/) → Data for the Shoes.
+1. [JDsports](https://www.jdsports.com.sg/) → Data for the clothes for men, women, kids category.
+1. [W3School](https://www.w3schools.com/) → Helped us with commands that we had trouble with and also taught us many ways to create interesting HTML, CSS & JavaScript content.
+1. [RestDB](https://restdb.io/) → Made use of RestDB to store data.
+1. [LottieFiles](https://lottiefiles.com/) → Used for loading icons.
+1. [Shopping Bag](https://fontawesome.com/v5/search?q=shopping)
+1. [Account Icon](https://fontawesome.com/v5/icons/user-circle?s=solid)
