@@ -8,7 +8,7 @@ A website that is dedicated to serving our sports lovers. This project aims to e
 The design process starts with Brainstorming for ideas, researching and Implementing to see if it works, Test and seeing what doesn't work and Improvement.
 
 * **Sports Emporium Customers**
-    * Our customers can select from a variety of sneakers & clothing to purchase them.
+    * Our customers can select from a variety of sneakers & clothing to purchase for their sports needs.
 
 * **Sports Enthusiasts**
     * Sports Enthusiasts can search up and stay updated with what is available in the market through the blog page.
@@ -33,6 +33,8 @@ These are the current features and pages of our website as well as the additiona
 * **Index**:
     * Featured Products **(Clickable)**
     * New Arrivals **(Clickable)**
+    * 3D Model Viewer
+
 <hr>
 
 * **Shop**:
