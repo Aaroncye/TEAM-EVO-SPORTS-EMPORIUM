@@ -1,21 +1,50 @@
 # TEAM-EVO-SPORTS-EMPORIUM-
-One or two paragraphs providing an overview of your project. Tell us about your project.
+Sports Emporium - Platform for sport lovers
 
-Essentially, this part is your sales pitch.
+A website that is dedicated to serving our sports lovers. This project aims to encourage sports enthusiasts to stay active and fashionable.
+
 
 ## Design Process
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+The design process starts with Brainstorming for ideas, researching and Implementing to see if it works, Test and seeing what doesn't work and Improvement.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+* **Sports Emporium Customers**
+    * Our customers can select from a variety of sneakers & clothing to purchase them.
+    * Customers can check out the blog their daily game coupons. With these game coupons, they will be able to play the games like Spin N Win or Coin Flip to stand a chance to earn more money to their account.
 
-- As a user type, I want to perform an action, so that I can achieve a goal.
+* **Sports Enthusiasts**
+    * Sports Enthusiasts can search up and stay updated with what is available in the market through the blog page.
+    * They can also be able to look up the retail prices of shoes, clothes, and socks.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.
+Adobe XD wireframe[click here](https://xd.adobe.com/view/cac83ef6-7b4e-43b4-a6e5-8e258db2734f-9f9b/?fullscreen).<br/>
+Pitch Video [click here]().<br/>
+Pitch Deck [click here](https://docs.google.com/presentation/d/1ZO1mDqd23FcLDB9hHOmnX01DwZptXoc5ryQnSmGFK6o/edit?usp=sharing).<br/>
+Github Page [click here](https://aaroncye.github.io/TEAM-EVO-SPORTS-EMPORIUM/).
 
-## Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+## Features ##
+These are the current features and pages of our website as well as the additional features we plan to add in the future.
+### Existing Features ###
+* **General**
+    * Navigation bar with Logo, Shopping Bag Icon & Account Icon
+    * Login & Create Account 
+    * Footer with Copyright & Acknowledgement
+    * Lottie Loading Animations
+    * 3D Model Viewer
+<hr>
 
-Existing Features
+* **Index**:
+    * Featured Products **(Clickable)**
+    * New Arrivals **(Clickable)**
+<hr>
+
+* **Shop**:
+    * Banners for Men, Women, Kids **(Clickable)**
+    * Products **(Clickable)**
+    * Newsletter Sign Up
+<hr>
+* **Product**:
+    * Product Card Info
+        * Brand, Name, Cost, Release Date, Category, Size, Quantity, Add to Bag.
+
 Feature 1 - allows users X to achieve Y, by having them fill out Z
 ...
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:

@@ -18,3 +18,8 @@ SmallImg[3].onclick = function() {
 SmallImg[4].onclick = function() {
     MainImg.src = SmallImg[4].src;
 }
+
+// when proceed to checkout is click alert message will show 
+function myFunction() {
+    alert("You have successfully checked out!");
+}
