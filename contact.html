@@ -101,10 +101,14 @@
             <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
         </div>
         <div class="form">
-            <input type="text" placeholder="Your email address">
-            <button class="normal">Sign Up</button>
+            <input type="email" class="form-control" placeholder="Enter your email">
+            <button class="normal" type="submit" onclick="newsletter()">Sign Up</button>
         </div>
+        <div class="mt-2" id="newsletter-error"></div>
+
     </section>
+
+
 
     <footer id="footer" class="section-p1">
         <div class="col">
@@ -127,17 +131,17 @@
 
         <div class="col">
             <h4>About</h4>
-            <a href="#">About Us</a>
+            <a href="about.html">About Us</a>
             <a href="#">Delivery Information</a>
             <a href="#">Privacy Policiy</a>
             <a href="#">Terms & Condition</a>
-            <a href="#">Contact Us</a>
+            <a href="contact.html">Contact Us</a>
         </div>
 
         <div class="col">
             <h4>My Account</h4>
-            <a href="#">Sign In</a>
-            <a href="#">View Cart</a>
+            <a href="account.html">Sign In</a>
+            <a href="cart.html">View Cart</a>
             <a href="#">My Wishlist</a>
             <a href="#">Track My Order</a>
             <a href="#">Help</a>
@@ -161,6 +165,10 @@
 
 
     <script src="./js/script.js"></script>
+    <script src="./js/newsletter.js"></script>
+    <!-- First JQuery, Bootstrap, etc, ... -->
+    <script src="https://sportsemporium-78d1.restdb.io/rest/_jsapi.js"></script>
+    ...
 </body>
 
 </html>

@@ -79,3 +79,94 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+
+
+//contact page form
+
+//GET
+var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "https://sportsemporium-78d1.restdb.io/rest/contact",
+    "method": "GET",
+    "headers": {
+        "content-type": "application/json",
+        "x-apikey": "<your CORS apikey here>",
+        "cache-control": "no-cache"
+    }
+}
+
+$.ajax(settings).done(function(response) {
+    console.log(response);
+});
+
+//POST
+var jsondata = { "field1": "xyz", "field2": "abc" };
+var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "https://sportsemporium-78d1.restdb.io/rest/contact",
+    "method": "POST",
+    "headers": {
+        "content-type": "application/json",
+        "x-apikey": "<your CORS apikey here>",
+        "cache-control": "no-cache"
+    },
+    "processData": false,
+    "data": JSON.stringify(jsondata)
+}
+
+$.ajax(settings).done(function(response) {
+    console.log(response);
+});
+
+//PUT
+var jsondata = { "field1": "new value", "field2": "xxx" };
+var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "https://sportsemporium-78d1.restdb.io/rest/contact/(ObjectID)",
+    "method": "PUT",
+    "headers": {
+        "content-type": "application/json",
+        "x-apikey": "<your CORS apikey here>",
+        "cache-control": "no-cache"
+    },
+    "processData": false,
+    "data": JSON.stringify(jsondata)
+}
+
+$.ajax(settings).done(function(response) {
+    console.log(response);
+});
+
+//DELETE
+var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "https://sportsemporium-78d1.restdb.io/rest/contact/(ObjectID)",
+    "method": "DELETE",
+    "headers": {
+        "content-type": "application/json",
+        "x-apikey": "<your CORS apikey here>",
+        "cache-control": "no-cache"
+    }
+}
+
+$.ajax(settings).done(function(response) {
+    console.log(response);
+});
+
+
+//newsletter
+var obj = new db.newsletter(properties);
+
+var instance = new db.newsletter({ "Email address": "value", ... });
+
+function newsletter() {
+    alert("You have signed up for our monthly newsletter!");
+}
+
+function trackmyorder() {
+    alert("order is being processed and will be delivered in 3 working days!");
+}

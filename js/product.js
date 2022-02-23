@@ -20,6 +20,10 @@ SmallImg[4].onclick = function() {
 }
 
 // when proceed to checkout is click alert message will show 
-function myFunction() {
+function checkout() {
     alert("You have successfully checked out!");
+}
+
+function coupons() {
+    alert("You have applied coupon code!");
 }
